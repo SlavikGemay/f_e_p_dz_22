@@ -1,8 +1,8 @@
 "use strict";
 
-const btnText = document.querySelector('div');
+const btnsInDiv = document.querySelector('div');
 
-btnText.addEventListener('click', (event) => {
+btnsInDiv.addEventListener('click', (event) => {
     if (event.target.nodeName === "BUTTON") {
         alert(`Клікнуто на кнопці: ${event.target.textContent}`);
     }
